@@ -1,5 +1,6 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Resume Named Entities Recognition with SpaCy
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+A common issue among recruiters in big companies during their resume reviewing is that they often have to spend large amounts of time identifying important information on the applicants’ resumes. This paper uses Named Entity Recognition models to help identify and highlight core information on a resume, so recruiters can narrow down their focus and review resumes efficiently. To achieve this goal, we implemented spaCy module as the foundation architecture  and trained the token to vector, RoBERTa-based, and transition-based NER models within the pipeline. After rounds of model fine-tuning, we are able to achieve a 0.426 F1 score in spaCy model. To further improve model performance, we can consider using a more robust labeling technique and gathering diverse datasets. The model code can be found at https://github.com/QiwenZz/resume_NER. The website code can be found at https://github.com/Haibo3939/NER-Web-App. 
+
